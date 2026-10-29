@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-28T10:23:29.027Z",
+  "units": "metres",
+  "source": "public/floorplan.jpg",
+  "model": "models/yingcui-villa.glb",
+  "floorCount": 5,
+  "roomCount": 28,
+  "meshes": 362,
+  "triangles": 279500,
+  "materials": 54,
+  "bounds": {
+    "min": [
+      -0.17,
+      -3.2,
+      -2.195
+    ],
+    "max": [
+      6.17,
+      12.525,
+      13.39
+    ],
+    "size": [
+      6.34,
+      15.725,
+      15.585
+    ]
+  },
+  "floors": [
+    {
+      "id": "B1",
+      "name": "地下室",
+      "elevation": -3,
+      "height": 3,
+      "rooms": 4,
+      "meshes": 52,
+      "triangles": 37300,
+      "materials": 25,
+      "bounds": {
+        "min": [
+          -0.17,
+          -3.2,
+          -0.17
+        ],
+        "max": [
+          6.17,
+          0.8317,
+          10.5275
+        ]
+      }
+    },
+    {
+      "id": "F1",
+      "name": "首层",
+      "elevation": 0,
+      "height": 3.35,
+      "rooms": 6,
+      "meshes": 71,
+      "triangles": 61780,
+      "materials": 25,
+      "bounds": {
+        "min": [
+          -0.17,
+          -0.3,
+          -1.645
+        ],
+        "max": [
+          6.17,
+          4.1808,
+          13.39
+        ]
+      }
+    },
+    {
+      "id": "F2",
+      "name": "二层",
+      "elevation": 3.35,
+      "height": 3.1,
+      "rooms": 7,
+      "meshes": 87,
+      "triangles": 81940,
+      "materials": 27,
+      "bounds": {
+        "min": [
+          -0.17,
+          3.15,
+          -2.195
+        ],
+        "max": [
+          6.17,
+          7.2881,
+          11.945
+        ]
+      }
+    },
+    {
+      "id": "F3",
+      "name": "三层",
+      "elevation": 6.45,
+      "height": 3.1,
+      "rooms": 8,
+      "meshes": 104,
+      "triangles": 68592,
+      "materials": 27,
+      "bounds": {
+        "min": [
+          -0.17,
+          6.25,
+          -2.195
+        ],
+        "max": [
+          6.17,
+          10.3881,
+          11.945
+        ]
+      }
+    },
+    {
+      "id": "AT",
+      "name": "阁楼",
+      "elevation": 9.55,
+      "height": 2.8,
+      "rooms": 3,
+      "meshes": 48,
+      "triangles": 29888,
+      "materials": 19,
+      "bounds": {
+        "min": [
+          -0.17,
+          9.35,
+          -0.67
+        ],
+        "max": [
+          4.77,
+          12.525,
+          7.545
+        ]
+      }
+    }
+  ],
+  "exportState": {
+    "allFiveFloors": true,
+    "originalElevations": true,
+    "wallsComplete": true,
+    "ceilingsIncluded": true,
+    "roofIncluded": true,
+    "furnitureIncluded": true,
+    "environmentGroundIncluded": false,
+    "textureMaxResolution": 1024
+  },
+  "limitations": [
+    "Reconstructed from one marketing floor-plan image",
+    "Elevations, storey heights, roof form and some openings are inferred",
+    "Rooms use estimated net rectangular areas",
+    "GLB is a static editing asset; browser controls and collision logic are part of the source code",
+    "Furniture is batched by material to control browser draw calls"
+  ],
+  "glb": {
+    "version": "2.0",
+    "bytes": 9431392,
+    "nodes": 489,
+    "meshes": 362,
+    "materials": 54,
+    "textures": 13,
+    "embeddedImages": 8,
+    "exportedFloorIds": [
+      "B1",
+      "F1",
+      "F2",
+      "F3",
+      "AT"
+    ],
+    "extensionsUsed": [
+      "EXT_materials_bump",
+      "KHR_texture_transform",
+      "KHR_materials_emissive_strength"
+    ]
+  }
+}
